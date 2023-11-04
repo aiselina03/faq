@@ -1,0 +1,35 @@
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 500px;
+  height: 120vh;
+}
+.container .faq .head {
+  height: 80px;
+  background-color: palevioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.container .faq .info {
+  transition:  all 2s;
+  background-color: pink;
+  color: white;
+  /* height: 150px; */
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 0px;
+ padding-left: 15px;
+}
+
+.display .faq.active .info{
+    height: 150px !important;
+}
